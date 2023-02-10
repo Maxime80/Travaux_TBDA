@@ -9,9 +9,8 @@
 </head>
 
 <body>
-    <img src="assets/img/jarditou_logo.jpg" alt="" width="">
+    <img src="assets/img/jarditou_logo.jpg" alt="logo">
     <br>
-
     La qualité depuis 70 ans
     <br>
     <br>
@@ -21,62 +20,59 @@
         <li><a href="contact.html">contact</a></li>
     </ul>
     <br>
-    <img src="assets/img/promotion.jpg" alt="" width="">
+    <img src="assets/img/promotion.jpg" alt="logo">
     <br>
     <h1>Contact</h1>
     <hr>
     <p>*Ces zones sont obligatoires</p>
-    <form action="">
+    <form>
         <fieldset>
             <legend>vos coordonées</legend>
             <label for="name">votre nom*</label>
-            <input type="text" placeholder="votre nom">
+            <input type="text" placeholder="votre nom" id="name" name="name">
             <br>
             <label for="prenom">votre prénom*</label>
-            <input type="text"placeholder="votre prénom">
+            <input type="text" placeholder="votre prénom" id="prenom" name="prenom">
             <br><br>
-            <label for="Sexe">Sexe*</label>
+            <label>Sexe*</label>
             <input type="radio" name="sexe" value="feminin"> Féminin
-            <input type="radio" name="sexe" value="masculin">  Masculin        
+            <input type="radio" name="sexe" value="masculin"> Masculin
             <br><br>
-
             <label for="date"> date de naissance*</label>
-            <input type="date" name="jj" id="">
+            <input type="date" id="date" name="date">
             <br>
             <label for="code-postal"> code postal*</label>
-            <input type="text">
+            <input type="text" id="code-postal" name="code-postal">
             <br>
-            <label for="Adresse"> Adresse</label>
-            <input type="text">
+            <label for="adresse"> Adresse</label>
+            <input type="text" id="adresse" name="adresse">
             <br>
             <label for="ville"> ville</label>
-            <input type="text">
+            <input type="text" id="ville" name="ville">
             <br>
             <label for="email"> email*</label>
-            <input type="email" name="" id="" placeholder="dave.loper@afpa.fr">
+            <input type="email" id="email" placeholder="dave.loper@afpa.fr" name="email">
             <br>
             <br>
         </fieldset>
-<br><br>
+        <br><br>
         <fieldset>
             <legend>Votre demande</legend>
             <label for="sujet">sujet*</label>
-            <select id="sujet"> 
+            <select id="sujet" name="sujet">
                 <option value="" selected>veuillez séléctionner un sujet</option>
                 <option value="commande">Mes commandes</option>
-                <option value="product">Question sur un produit</option>               
+                <option value="product">Question sur un produit</option>
                 <option value="reclam">Réclamation</option>
-                <option value="other">Autres</option>    
+                <option value="other">Autres</option>
             </select>
             <br>
             <label for="ask">votre question*</label>
-            <textarea></textarea>
-
-
-
+            <textarea id="ask" name="ask"></textarea>
         </fieldset>
         <br>
-        <input type="checkbox" name="J'accepte" value="J'accepte" > * J'accepte le traitement informatique de ce formulaire
+        <input type="checkbox" name="J'accepte" value="J'accepte"> * J'accepte le traitement informatique de ce
+        formulaire
         <br>
         <button type="submit">Envoyer</button>
         <button type="reset">Annuler</button>
@@ -86,21 +82,7 @@
             <li><a href="#">Horaire</a></li>
             <li><a href="#">Plan du site</a></li>
         </ul>
-        
-
-        
-
-        
-
-
     </form>
-
-
-
-
-
-
-
 </body>
 
 </html>
